@@ -1,0 +1,19 @@
+S3 버킷 만들기 (Personalize interaction + item data)
+aws s3 mb s3://demogoprime-data-for-personalize
+
+버킷 policy 추가하기
+aws s3api put-bucket-policy --bucket demogoprime-data-for-personalize --policy file://s3/personalize-s3-bucket-policy.json
+
+"item" 데이터셋 S3에 업로드 하기
+aws s3 cp personalize-items.csv s3://demogoprime-data-for-personalize/item/
+
+"user-interactions" 데이터셋 S3에 업로드
+aws s3 cp personalize-interactions.csv s3://demogoprime-data-for-personalize/user-item/
+
+제대로 들어가 있는지 확인
+aws s3 ls --recursive s3://demogoprime-data-for-personalize/
+
+
+
+
+

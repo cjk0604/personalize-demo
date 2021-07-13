@@ -1,0 +1,279 @@
+{
+    "Movie": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "1"
+                    },
+                    "name": {
+                        "S": "Avengers: Endgame"
+                    },
+                    "category": {
+                        "S": "Action|Fantasy"
+                    },
+                    "imageUrl": {
+                        "S": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/108b520c55e3c9760f77a06110d6a73b_e97cf224-d57f-44e3-8477-4f5479cd746b_480x.progressive.jpg?v=1573616089"
+                    },
+                    "description": {
+                        "S": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "2"
+                    },
+                    "name": {
+                        "S": "Parasite"
+                    },
+                    "category": {
+                        "S": "Comedy|Drama"
+                    },
+                    "imageUrl": {
+                        "S": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/parasite_ver2_480x.progressive.jpg?v=1581347043"
+                    },
+                    "description": {
+                        "S": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "3"
+                    },
+                    "name": {
+                        "S": "Lion King"
+                    },
+                    "category": {
+                        "S": "Comedy|Animation"
+                    },
+                    "imageUrl": {
+                        "S": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/a3f695223a4952fc108abcf3db7994db_731edfef-7239-4dbb-b040-baa02cbc5bb9_480x.progressive.jpg?v=1573587271"
+                    },
+                    "description": {
+                        "S": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "4"
+                    },
+                    "name": {
+                        "S": "Toy Story"
+                    },
+                    "category": {
+                        "S": "Comedy|Animation"
+                    },
+                    "imageUrl": {
+                        "S": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/8e5246d5f90632343a5ea3fa05c7255c_480x.progressive.jpg?v=1573618736"
+                    },
+                    "description": {
+                        "S": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "5"
+                    },
+                    "name": {
+                        "S": "Jumanji: The Next Level"
+                    },
+                    "category": {
+                        "S": "Action|Comedy"
+                    },
+                    "imageUrl": {
+                        "S": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/jumaninextlevel.reg.ar_480x.progressive.jpg?v=1574697739"
+                    },
+                    "description": {
+                        "S": "In Jumanji: The Next Level, the gang is back but the game has changed. As they return to rescue one of their own, the players will have to brave parts unknown from arid deserts to snowy mountains, to escape the world's most dangerous"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "6"
+                    },
+                    "name": {
+                        "S": "Matrix"
+                    },
+                    "category": {
+                        "S": "Action|Fantasy"
+                    },
+                    "imageUrl": {
+                        "S": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/9fcc8387e9d47ab5af4318d7183f6d2b_19f7e1e1-3941-4c27-bad1-1f6dd70f35e0_480x.progressive.jpg?v=1573587594"
+                    },
+                    "description": {
+                        "S": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "7"
+                    },
+                    "name": {
+                        "S": "Inception"
+                    },
+                    "category": {
+                        "S": "Adventure|Fantasy"
+                    },
+                    "imageUrl": {
+                        "S": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/14e6d5440ba4b15532eb5aa218b01f06_480x.progressive.jpg?v=1573593914"
+                    },
+                    "description": {
+                        "S": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "8"
+                    },
+                    "name": {
+                        "S": "Skyfall"
+                    },
+                    "category": {
+                        "S": "Action|Adventure"
+                    },
+                    "imageUrl": {
+                        "S": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/edbeb65039c72e0138363d8b8d7e5f12_79d814f7-9ff1-437e-b1fa-7749fc6fd0eb_480x.progressive.jpg?v=1573587463"
+                    },
+                    "description": {
+                        "S": "James Bond's loyalty to M is tested when her past comes back to haunt her. When MI6 comes under attack, 007 must track down and destroy the threat, no matter how personal the cost."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "9"
+                    },
+                    "name": {
+                        "S": "Spider-man 2"
+                    },
+                    "category": {
+                        "S": "Action|Adventure"
+                    },
+                    "imageUrl": {
+                        "S": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/9cac1b79afea630dc44a5d334dd8840f_64e61a93-b2a1-477f-b719-afb221d486fc_480x.progressive.jpg?v=1573615813"
+                    },
+                    "description": {
+                        "S": "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "10"
+                    },
+                    "name": {
+                        "S": "Sound Of Music"
+                    },
+                    "category": {
+                        "S": "Musical|Drama"
+                    },
+                    "imageUrl": {
+                        "S": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/9f402fc3a409aee354340aed8c37cef4_f20e4666-4ede-40b8-9e39-b736d49e4e43_480x.progressive.jpg?v=1573617176"
+                    },
+                    "description": {
+                        "S": "A woman leaves an Austrian convent to become a governess to the children of a Naval officer widower."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "11"
+                    },
+                    "name": {
+                        "S": "Titanic"
+                    },
+                    "category": {
+                        "S": "Drama|Romance"
+                    },
+                    "imageUrl": {
+                        "S": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/c104f1bfed20481f35bc96cb9addc940_480x.progressive.jpg?v=1573588574"
+                    },
+                    "description": {
+                        "S": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "12"
+                    },
+                    "name": {
+                        "S": "Tenet"
+                    },
+                    "category": {
+                        "S": "Action|Fantasy"
+                    },
+                    "imageUrl": {
+                        "S": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/tenet2020.ar_480x.progressive.jpg?v=1578062934"
+                    },
+                    "description": {
+                        "S": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "13"
+                    },
+                    "name": {
+                        "S": "Dark Knight Rises"
+                    },
+                    "category": {
+                        "S": "Action|Fantasy"
+                    },
+                    "imageUrl": {
+                        "S": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/5fa9b28c5e9321457bab15b31c6b496f_f2022b61-97e5-42bb-96c6-b490d02fc8be_480x.progressive.jpg?v=1573590406"
+                    },
+                    "description": {
+                        "S": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane."
+                    }
+                }
+            }
+        }
+
+
+    ]
+}
