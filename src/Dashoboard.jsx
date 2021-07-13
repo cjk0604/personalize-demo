@@ -3,7 +3,6 @@ import React, { useContext } from 'react'
 import { BrowserRouter as Router, Route, NavLink, Link } from 'react-router-dom';
 
 import { Menu, Container, Icon } from 'semantic-ui-react'
-import MovieCreation from './component/MovieCreation'
 import MoviesList from './component/MoviesList'
 import MovieDetails from './component/MovieDetails'
 import { AuthContext } from './context/Auth.context';
@@ -26,7 +25,6 @@ function Dashboard() {
                 </Menu.Menu>
                 <Menu.Menu position='right'>
                 <Menu.Item link>Generate</Menu.Item>
-                <Menu.Item link><MovieCreation/></Menu.Item>
                 <Menu.Item link onClick={onLogout}>Log out</Menu.Item>
                 </Menu.Menu>
             </Menu>
