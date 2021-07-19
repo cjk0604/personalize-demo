@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useContext} from 'react';
+// import { AuthContext } from '../context/Auth.context';
 import PropTypes from 'prop-types';
 
 import { BrowserRouter as Router, Route, NavLink, Link } from 'react-router-dom';
@@ -16,6 +17,10 @@ import { dispatchUserEvent } from '../util/Utils';
 
 function MoviesListCardGroup({ items, pageViewOrigin, cardStyle }) {
     // console.log(items)
+
+    // const { state: ContextState } = useContext(AuthContext);
+    // const {userId} = ContextState;
+
     const { Track, trackEvent } = useTracking({page: 'MovieListCardPage'}, {
       dispatch: (data) => dispatchUserEvent(data)
     });
