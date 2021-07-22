@@ -30,13 +30,14 @@ function MovieDetails({ id, locationState }) {
   
     // DynamoDB에서 특정 Movie Id에 대한 상세 정보를 불러옵니다.
     // get_movie_url을 CloudFormation을 통해 생성된 API Gateway 엔드포인트로 변경하셔야 합니다.
-    const get_a_movie_url = `https://k1js8ud1xd.execute-api.us-east-1.amazonaws.com/prod/movie/${id}`
+    const get_a_movie_url = `https://k1js8ud1xd.execute-api.us-east-1.amazonaws.com/prod/movie`
+    const a_movie_api = `${get_a_movie_url}/${id}`
     React.useEffect(() => {
       
       async function loadDealInfo() {
 
         const response = await axios.get(
-          get_a_movie_url,
+          a_movie_api,
       );
        console.log((response.data));
        setMovie((response.data))
@@ -56,11 +57,12 @@ function MovieDetails({ id, locationState }) {
 
     // Personalize를 통해 생성된 실시간 추천 데이터를 불러옵니다.
     // get_realtime_recommendation을 CloudFormation을 통해 생성된 API Gateway 엔드포인트로 변경하셔야 합니다.
-    const get_realtime_recommendation = `https://k1js8ud1xdd.execute-api.us-east-1.amazonaws.com/prod/recommendation/${userId}`
+    const get_realtime_recommendation = `https://k1js8ud1xd.execute-api.us-east-1.amazonaws.com/prod/recommendation`
+    const realtime_api = `${get_realtime_recommendation}/${userId}`
     React.useEffect(() => {
       async function fetchData () {
         const response = await axios.get(
-            get_realtime_recommendation,);
+          realtime_api,);
          console.log((response.data)['movies']);
         //  console.log("state.username:",username)
          setRecommendedMovies((response.data)['movies'])
@@ -71,10 +73,11 @@ function MovieDetails({ id, locationState }) {
       
       // Personalize를 통해 생성된 배치 추천 데이터를 불러옵니다.
       // get_batch_recommendation을 CloudFormation을 통해 생성된 API Gateway 엔드포인트로 변경하셔야 합니다.
-      const get_batch_recommendation = `https://k1js8ud1xdd.execute-api.us-east-1.amazonaws.com/prod/recommendation/batch/${userId}`
+      const get_batch_recommendation = `https://k1js8ud1xd.execute-api.us-east-1.amazonaws.com/prod/recommendation/batch`
+      const batch_api = `${get_batch_recommendation}/${userId}`
       async function fetchData2 () {
         const response = await axios.get(
-            get_batch_recommendation,);
+          batch_api,);
          console.log("batch", (response.data)['movies']);
         //  console.log("state.username:",username)
          setRecommendedMovies2((response.data)['movies'])
