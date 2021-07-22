@@ -17,6 +17,8 @@ function MoviesList() {
       async function fetchData () {
         const response = await axios.get(
           get_movie_url,);
+        //  console.log((response.data)['movies']);
+        //  setMovies((response.data)['movies'])
          console.log((response.data));
          setMovies((response.data))
         
