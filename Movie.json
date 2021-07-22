@@ -262,15 +262,6 @@
             {"Item":{"id":{"S":"53"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTI2NTU2Nzc0MV5BMl5BanBnXkFtZTcwMzY1OTM2MQ@@..jpg"},"name":{"S":"Lamerica (1994)"},"category":{"S":"Adventure|Drama"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"38"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BYWU1YjQ3NTUtZjZkZi00ZDc5LTgyZTgtNzkxMTIzNzUwZGY0XkEyXkFqcGdeQXVyNDk3NzU2MTQ@..jpg"},"name":{"S":"It Takes Two (1995)"},"category":{"S":"Children|Comedy"}}}
-        },
-        {"PutRequest": 
-            {"Item":{"id":{"S":"94"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@..jpg"},"name":{"S":"Beautiful Girls (1996)"},"category":{"S":"Comedy|Drama|Romance"}}}
-        },
-        {"PutRequest": 
-            {"Item":{"id":{"S":"66"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5NjU4NDUzMl5BMl5BanBnXkFtZTgwMjc4NDgzMTE@..jpg"},"name":{"S":"Lawnmower Man 2: Beyond Cyberspace (1996)"},"category":{"S":"Action|Sci-Fi|Thriller"}}}
-        },
-        {"PutRequest": 
             {"Item":{"id":{"S":"61"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BNTliYTI1YTctMTE0Mi00NDM0LThjZDgtYmY3NGNiODBjZjAwXkEyXkFqcGdeQXVyMTAwMzUyOTc@..jpg"},"name":{"S":"Eye for an Eye (1996)"},"category":{"S":"Drama|Thriller"}}}
         },
         {"PutRequest": 
