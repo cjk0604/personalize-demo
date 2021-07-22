@@ -252,52 +252,11 @@
                 }
             }
         },
-        {"PutRequest": 
-            {"Item": {"id": {"S": "13"},"name": {"S": "Dark Knight Rises"},"category": {"S": "Action|Fantasy"},"imageUrl": {"S": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/5fa9b28c5e9321457bab15b31c6b496f_f2022b61-97e5-42bb-96c6-b490d02fc8be_480x.progressive.jpg?v=1573590406"},"description": {"S": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane."}}}
-        },
-        {"PutRequest": 
-            {"Item":{"id":{"S":"24"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BZTUxMzY1N2YtZjM5NC00MmUzLThkNzEtYjNiYzg0MzI4MDc5L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@..jpg"},"name":{"S":"Powder (1995)"},"category":{"S":"Drama|Sci-Fi"}}}
-        },
-        {"PutRequest": 
-            {"Item":{"id":{"S":"53"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTI2NTU2Nzc0MV5BMl5BanBnXkFtZTcwMzY1OTM2MQ@@..jpg"},"name":{"S":"Lamerica (1994)"},"category":{"S":"Adventure|Drama"}}}
-        },
-        {"PutRequest": 
-            {"Item":{"id":{"S":"38"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BYWU1YjQ3NTUtZjZkZi00ZDc5LTgyZTgtNzkxMTIzNzUwZGY0XkEyXkFqcGdeQXVyNDk3NzU2MTQ@..jpg"},"name":{"S":"It Takes Two (1995)"},"category":{"S":"Children|Comedy"}}}
-        },
-        {"PutRequest": 
-            {"Item":{"id":{"S":"94"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@..jpg"},"name":{"S":"Beautiful Girls (1996)"},"category":{"S":"Comedy|Drama|Romance"}}}
-        },
-        {"PutRequest": 
-            {"Item":{"id":{"S":"66"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5NjU4NDUzMl5BMl5BanBnXkFtZTgwMjc4NDgzMTE@..jpg"},"name":{"S":"Lawnmower Man 2: Beyond Cyberspace (1996)"},"category":{"S":"Action|Sci-Fi|Thriller"}}}
-        },
-        {"PutRequest": 
-            {"Item":{"id":{"S":"61"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BNTliYTI1YTctMTE0Mi00NDM0LThjZDgtYmY3NGNiODBjZjAwXkEyXkFqcGdeQXVyMTAwMzUyOTc@..jpg"},"name":{"S":"Eye for an Eye (1996)"},"category":{"S":"Drama|Thriller"}}}
-        },
-        {"PutRequest": 
-            {"Item":{"id":{"S":"87"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BNTNlYjBjMGEtOTFkZS00MjM5LTk2ZTktYWVmZTc4NzE3NzAxL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNDk3NzU2MTQ@..jpg"},"name":{"S":"Dunston Checks In (1996)"},"category":{"S":"Children|Comedy"}}}
-        },
-        {"PutRequest": 
-            {"Item":{"id":{"S":"97"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTY3OTI5NDczN15BMl5BanBnXkFtZTcwNDA0NDY3Mw@@..jpg"},"name":{"S":"Hate (Haine, La) (1995)"},"category":{"S":"Crime|Drama"}}}
-        },
-        {"PutRequest": 
-            {"Item":{"id":{"S":"62"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BYWEyYTQzNzQtZTg5OS00NDhkLTg1NjYtMzA5Y2MyYjYzNWQ5L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@..jpg"},"name":{"S":"Mr. Holland's Opus (1995)"},"category":{"S":"Drama"}}}
-        },
-        {"PutRequest": 
-            {"Item":{"id":{"S":"76"},"name":{"S":"Screamers (1995)"},"genres":{"S":"Action|Sci-Fi|Thriller"},"imageUrl":{"S":"https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/unicorn-funny-gym-viviana-c-olmos.jpg"}}}
-        },
-        {"PutRequest": 
-            {"Item":{"id":{"S":"89"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BNzQzMzJhZTEtOWM4NS00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@..jpg"},"name":{"S":"Nick of Time (1995)"},"category":{"S":"Action|Thriller"}}}
-        },
-        {"PutRequest": 
-            {"Item":{"id":{"S":"80"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BZjU2ODlmZWMtODEwZS00NTQ0LTk1ZDYtYzk0ZjE3ZGZhMGM0XkEyXkFqcGdeQXVyMTQxNzMzNDI@..jpg"},"name":{"S":"White Balloon, The (Badkonake sefid) (1995)"},"category":{"S":"Children|Drama"}}}
-        },
-        {"PutRequest": 
-            {"Item":{"id":{"S":"28"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BNjEzYjJmNzgtNDkwNy00MTQ4LTlmMWMtNzA4YjE2NjI0ZDg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@..jpg"},"name":{"S":"Persuasion (1995)"},"category":{"S":"Drama|Romance"}}}
-        },
-        {"PutRequest": 
-            {"Item":{"id":{"S":"60"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BZGJhNDdmMWMtNzZiYy00MmFiLThjNmUtYTE1ZjRkNjdjYmQ5XkEyXkFqcGdeQXVyMTMxODk2OTU@..jpg"},"name":{"S":"Indian in the Cupboard, The (1995)"},"category":{"S":"Adventure|Children|Fantasy"}}}
+        {"PutRequest": {
+                "Item": 
+                {"id": {"S": "13"},"name": {"S": "Dark Knight Rises"},"category": {"S": "Action|Fantasy"},"imageUrl": {"S": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/5fa9b28c5e9321457bab15b31c6b496f_f2022b61-97e5-42bb-96c6-b490d02fc8be_480x.progressive.jpg?v=1573590406"},"description": {"S": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane."}}
+            }
         }
-
 
 
     ]
