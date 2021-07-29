@@ -1,6 +1,7 @@
 import React, {useContext} from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
+import config from '../config.json';
 
 import { BrowserRouter as Router, Route, NavLink, Link } from 'react-router-dom';
 
@@ -27,10 +28,12 @@ function MovieDetails({ id, locationState }) {
     const [recommendedMovies, setRecommendedMovies] = React.useState([]);
     const [recommendedMovies2, setRecommendedMovies2] = React.useState([]);
     // const { state } = useContext(AuthContext);
+
+    // config.ApiUrl need to be updated during Frontend set up lab.
+    const config_api_url = config.ApiUrl;
   
-    // DynamoDB에서 특정 Movie Id에 대한 상세 정보를 불러옵니다.
-    // get_movie_url을 CloudFormation을 통해 생성된 API Gateway 엔드포인트로 변경하셔야 합니다.
-    const get_a_movie_url = `https://k1js8ud1xd.execute-api.us-east-1.amazonaws.com/prod/movie`
+    // Fetch a movie data for specific movie id from Movie Table in DynamoDB (GET)
+    const get_a_movie_url = `${config_api_url}/movie`
     const a_movie_api = `${get_a_movie_url}/${id}`
     React.useEffect(() => {
       
@@ -55,9 +58,8 @@ function MovieDetails({ id, locationState }) {
     }, [id, locationState]);
 
 
-    // Personalize를 통해 생성된 실시간 추천 데이터를 불러옵니다.
-    // get_realtime_recommendation을 CloudFormation을 통해 생성된 API Gateway 엔드포인트로 변경하셔야 합니다.
-    const get_realtime_recommendation = `https://k1js8ud1xd.execute-api.us-east-1.amazonaws.com/prod/recommendation`
+    // call personalizeProcessingFunction function to make use of Amazon Personalize Campaign endpoint
+    const get_realtime_recommendation = `${config_api_url}/recommendation`
     const realtime_api = `${get_realtime_recommendation}/${userId}`
     React.useEffect(() => {
       async function fetchData () {
@@ -71,9 +73,9 @@ function MovieDetails({ id, locationState }) {
       }
       fetchData();
       
-      // Personalize를 통해 생성된 배치 추천 데이터를 불러옵니다.
-      // get_batch_recommendation을 CloudFormation을 통해 생성된 API Gateway 엔드포인트로 변경하셔야 합니다.
-      const get_batch_recommendation = `https://k1js8ud1xd.execute-api.us-east-1.amazonaws.com/prod/recommendation/batch`
+
+      // call batchRecommendationProcessingFunction function
+      const get_batch_recommendation = `${config_api_url}/recommendation/batch`
       const batch_api = `${get_batch_recommendation}/${userId}`
       async function fetchData2 () {
         const response = await axios.get(

@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import config from '../config.json';
 
 
 import { Container } from 'semantic-ui-react'
@@ -10,15 +11,17 @@ function MoviesList() {
     const [movies, setMovies] = React.useState([]);
     // const [movies, setMovies] = React.useState([]);
 
-    // DynamoDB에 저장된 모든 영화 정보를 불러옵니다 (GET)
-    // get_movie_url을 CloudFormation을 통해 생성된 API Gateway 엔드포인트로 변경하셔야 합니다.
-    const get_movie_url = 'https://k1js8ud1xd.execute-api.us-east-1.amazonaws.com/prod/movie'
+    // Fetch all movie data from Movie Table in DynamoDB (GET)
+    // config.ApiUrl need to be updated during Frontend set up lab.
+    const config_api_url = config.ApiUrl;
+    const get_movie_url = `${config_api_url}/movie`
     React.useEffect(() => {
       async function fetchData () {
         const response = await axios.get(
           get_movie_url,);
         //  console.log((response.data)['movies']);
         //  setMovies((response.data)['movies'])
+        //  console.log(config.ApiUrl)
          console.log((response.data));
          setMovies((response.data))
         
