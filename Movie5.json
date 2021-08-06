@@ -1,0 +1,16 @@
+{
+    "Movie": [
+        {"PutRequest": 
+            {"Item": {"id": {"S": "97"},"name": {"S": "Dark Knight Rises"},"category": {"S": "Action|Fantasy"},"imageUrl": {"S": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/5fa9b28c5e9321457bab15b31c6b496f_f2022b61-97e5-42bb-96c6-b490d02fc8be_480x.progressive.jpg?v=1573590406"},"description": {"S": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane."}}}
+        },
+        {"PutRequest": 
+            {"Item":{"id":{"S":"98"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BZTUxMzY1N2YtZjM5NC00MmUzLThkNzEtYjNiYzg0MzI4MDc5L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@..jpg"},"name":{"S":"Powder (1995)"},"category":{"S":"Drama|Sci-Fi"}}}
+        },
+        {"PutRequest": 
+            {"Item":{"id":{"S":"99"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTI2NTU2Nzc0MV5BMl5BanBnXkFtZTcwMzY1OTM2MQ@@..jpg"},"name":{"S":"Lamerica (1994)"},"category":{"S":"Adventure|Drama"}}}
+        },
+        {"PutRequest": 
+            {"Item":{"id":{"S":"100"},"imageUrl":{"S":"https://images-na.ssl-images-amazon.com/images/M/MV5BNTliYTI1YTctMTE0Mi00NDM0LThjZDgtYmY3NGNiODBjZjAwXkEyXkFqcGdeQXVyMTAwMzUyOTc@..jpg"},"name":{"S":"Eye for an Eye (1996)"},"category":{"S":"Drama|Thriller"}}}
+        }
+    ]
+}
