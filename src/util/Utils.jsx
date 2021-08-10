@@ -28,7 +28,7 @@ export async function dispatchUserEvent(data) {
 
     // Push to Kinesis putAPI
     // const url = "https://k1js8ud1xd.execute-api.us-east-1.amazonaws.com/prod/stream/demogoprime-kinesis-stream-test/record";
-    const url = `${config_api_url}/demogoprime-kinesis-stream-prd/record`
+    const url = `${config_api_url}/stream/demogoprime-kinesis-stream-prd/record`
 
     await axios.put(url, {
         Data, PartitionKey

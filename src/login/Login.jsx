@@ -39,6 +39,7 @@ const LoginForm = () => {
       const response = await axios.get(
         'https://k1js8ud1xd.execute-api.us-east-1.amazonaws.com/prod/user',);
      console.log((response.data).Items);
+    //  console.log((response.data).Items[0]);
      return (response.data).Items;
       //  setMovies((response.data)['Item'])
       
