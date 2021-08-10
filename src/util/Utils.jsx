@@ -30,7 +30,7 @@ export async function dispatchUserEvent(data) {
     // const url = "https://k1js8ud1xd.execute-api.us-east-1.amazonaws.com/prod/stream/demogoprime-kinesis-stream-test/record";
     const url = `${config_api_url}/stream/demogoprime-kinesis-stream-prd/record`
 
-    await axios.put(url, {
+    await axios.post(url, {
         Data, PartitionKey
     })
     .then(response => {
