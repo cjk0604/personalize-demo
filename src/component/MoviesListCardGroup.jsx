@@ -36,7 +36,7 @@ function MoviesListCardGroup({ items, pageViewOrigin, cardStyle }) {
             onClick={() => { trackEvent({ EVENT_TYPE: 'click', movieId: `${movie.id}` }); }}
             >
   
-            <MovieCardImage movieName={movie.name} minHeight={140} fontSize={24} imageUrl={movie.imageUrl}
+            <MovieCardImage movieName={movie.name} size = "small" minHeight={140} fontSize={24} imageUrl={`https://via.placeholder.com/200x280/FFFFFF/000000?text=${movie.name}`}
             />
             <Card.Content>
               {movie.score? <Card.Meta as="h1">{movie.name}</Card.Meta> : <Card.Header>{movie.name}</Card.Header> }

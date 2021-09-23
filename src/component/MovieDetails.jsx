@@ -100,7 +100,7 @@ function MovieDetails({ id, locationState }) {
             </Placeholder>
           ) : 
           (
-            <MovieCardImage movieName={movie.name} minHeight={100} fontSize={48} imageUrl={movie.imageUrl}/>
+            <MovieCardImage movieName={movie.name} size = "medium" minHeight={100} fontSize={48} imageUrl={`https://via.placeholder.com/200x280/FFFFFF/000000?text=${movie.name}`}/>
           )}
           {loading ? (
             <Placeholder>
