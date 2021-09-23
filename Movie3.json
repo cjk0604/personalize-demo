@@ -1,76 +1,76 @@
 {
     "Movie": [
         {"PutRequest": 
-            {"Item": {"id": {"S": "49"},"name": {"S": "49 Movie"},"category": {"S": "Action|Fantasy"},"imageUrl": {"S": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/01ff0f8df36fd3977577e062bf376af9_aa772ced-76df-453a-b5b1-40b3646892b9_480x.progressive.jpg?v=1573590524"},"description": {"S": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane."}}}
+            {"Item": {"id": {"S": "49"},"name": {"S": "49 Movie"},"category": {"S": "Action|Fantasy"},"imageUrl": {"S": ""},"description": {"S": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane."}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"50"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/b5d9f2c9dead0bb35a747c3e37fd7e11_64552931-e74b-4be7-b3b3-e105fe13d737_480x.progressive.jpg?v=1573592581"},"name":{"S":"50 Movie"},"category":{"S":"Drama|Sci-Fi"}}}
+            {"Item":{"id":{"S":"50"},"imageUrl":{"S":""},"name":{"S":"50 Movie"},"category":{"S":"Drama|Sci-Fi"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"51"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/dd43b3a44eacfd9ff0a3d97b311d17d2_b4766a06-e1c1-421d-acdb-3adae5c2c645_480x.progressive.jpg?v=1573652567"},"name":{"S":"51 Movie"},"category":{"S":"Adventure|Drama"}}}
+            {"Item":{"id":{"S":"51"},"imageUrl":{"S":""},"name":{"S":"51 Movie"},"category":{"S":"Adventure|Drama"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"52"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/13d32f1edc9b772b9cb8220cf0a5462a_e61c1195-9dd6-4167-91d5-d7ef5876a1c4_480x.progressive.jpg?v=1573590428"},"name":{"S":"52 Movie"},"category":{"S":"Drama|Thriller"}}}
+            {"Item":{"id":{"S":"52"},"imageUrl":{"S":""},"name":{"S":"52 Movie"},"category":{"S":"Drama|Thriller"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"53"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/39611712f76250b4fdbbd6f3cfaf4f72_05f86099-89c2-4624-9ce3-aaf16a83bd52_480x.progressive.jpg?v=1573595122"},"name":{"S":"53 Movie"},"category":{"S":"Children|Comedy"}}}
+            {"Item":{"id":{"S":"53"},"imageUrl":{"S":""},"name":{"S":"53 Movie"},"category":{"S":"Children|Comedy"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"54"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/a26294f6f86a96020f924e82b32bb0a3_d9bd751c-d71f-4193-b6f0-cf95a517d1d1_480x.progressive.jpg?v=1573654000"},"name":{"S":"54 Movie"},"category":{"S":"Crime|Drama"}}}
+            {"Item":{"id":{"S":"54"},"imageUrl":{"S":""},"name":{"S":"54 Movie"},"category":{"S":"Crime|Drama"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"55"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/d636fe5cecc940be15df249c226ffe4e_29162faf-74de-44a7-af0c-6259fad2c193_480x.progressive.jpg?v=1573651475"},"name":{"S":"55 Movie"},"category":{"S":"Drama"}}}
+            {"Item":{"id":{"S":"55"},"imageUrl":{"S":""},"name":{"S":"55 Movie"},"category":{"S":"Drama"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"56"},"name":{"S":"55 Movie"},"genres":{"S":"Action|Sci-Fi|Thriller"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/a3f695223a4952fc108abcf3db7994db_731edfef-7239-4dbb-b040-baa02cbc5bb9_480x.progressive.jpg?v=1573587271"}}}
+            {"Item":{"id":{"S":"56"},"name":{"S":"55 Movie"},"genres":{"S":"Action|Sci-Fi|Thriller"},"imageUrl":{"S":""}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"57"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/e9d0df80d465962cac9d802f050f10dd_3fcf490b-744f-4a4c-9727-02da5bf6be64_480x.progressive.jpg?v=1573617238"},"name":{"S":"57 Movie"},"category":{"S":"Action|Thriller"}}}
+            {"Item":{"id":{"S":"57"},"imageUrl":{"S":""},"name":{"S":"57 Movie"},"category":{"S":"Action|Thriller"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"58"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/2fb2fa7a5a0a022982abcf77771317bc_cdf2419f-5bd3-4d3e-98a2-94588c9b79cf_480x.progressive.jpg?v=1573592563"},"name":{"S":"58 Movie"},"category":{"S":"Children|Drama"}}}
+            {"Item":{"id":{"S":"58"},"imageUrl":{"S":""},"name":{"S":"58 Movie"},"category":{"S":"Children|Drama"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"59"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/6294ae3e57013170bfffc9e8d77379c3_480x.progressive.jpg?v=1573617350"},"name":{"S":"59 Movie"},"category":{"S":"Drama|Romance"}}}
+            {"Item":{"id":{"S":"59"},"imageUrl":{"S":""},"name":{"S":"59 Movie"},"category":{"S":"Drama|Romance"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"60"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/frozen_ver8_480x.progressive.jpg?v=1595012455"},"name":{"S":"60 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
+            {"Item":{"id":{"S":"60"},"imageUrl":{"S":""},"name":{"S":"60 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"61"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/b8d5d95be5c674e75722abd2590e2307_480x.progressive.jpg?v=1573584346"},"name":{"S":"61 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
+            {"Item":{"id":{"S":"61"},"imageUrl":{"S":""},"name":{"S":"61 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"62"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/55cea2691f42048d74ea7a4f39b7afa1_480x.progressive.jpg?v=1573572639"},"name":{"S":"62 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
+            {"Item":{"id":{"S":"62"},"imageUrl":{"S":""},"name":{"S":"62 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"63"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/a1628341cc57cd3929b51d7c8ee81f6e_4b3aa3ac-d907-4f06-a5e4-6102e7442fe6_480x.progressive.jpg?v=1573593758"},"name":{"S":"63 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
+            {"Item":{"id":{"S":"63"},"imageUrl":{"S":""},"name":{"S":"63 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"64"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/cedcf0e4209895fce418196e333507ad_54154c41-79c2-4688-93e6-88283b8cfd36_480x.progressive.jpg?v=1573592554"},"name":{"S":"64 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
+            {"Item":{"id":{"S":"64"},"imageUrl":{"S":""},"name":{"S":"64 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"65"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/f55e20d2b07e387bde6659f27d221edc_c9ae0213-842b-4699-9dad-258f35518667_480x.progressive.jpg?v=1573591358"},"name":{"S":"65 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
+            {"Item":{"id":{"S":"65"},"imageUrl":{"S":""},"name":{"S":"65 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"66"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/36fe14fd9e5fffd4cb01c6a2e027ba7b_480x.progressive.jpg?v=1573593954"},"name":{"S":"66 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
+            {"Item":{"id":{"S":"66"},"imageUrl":{"S":""},"name":{"S":"66 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"67"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/blackwidow.2ndadv.ar_480x.progressive.jpg?v=1580488003"},"name":{"S":"67 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
+            {"Item":{"id":{"S":"67"},"imageUrl":{"S":""},"name":{"S":"67 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"68"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/f6409a20424831de047b9fe0dd959672_da92c414-b1e1-4965-b4b6-69f1e4d9c913_480x.progressive.jpg?v=1573653744"},"name":{"S":"68 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
+            {"Item":{"id":{"S":"68"},"imageUrl":{"S":""},"name":{"S":"68 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"69"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/66d3eedf796dda113fbeb00434dded5f_74b1e451-3090-49ac-b9f1-0c2905f4f1b7_480x.progressive.jpg?v=1573592597"},"name":{"S":"69 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
+            {"Item":{"id":{"S":"69"},"imageUrl":{"S":""},"name":{"S":"69 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"70"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/e43b6a65affe0a92f28bec1f2ba14c99_8f89b55a-6c3f-40f6-8ba1-c889ca04f73d_480x.progressive.jpg?v=1573587544"},"name":{"S":"70 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
+            {"Item":{"id":{"S":"70"},"imageUrl":{"S":""},"name":{"S":"70 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"71"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/2cf70b790e75666d8b722f2df4f98d89_78613737-0869-4ff1-9d52-d8cc1314f9bb_480x.progressive.jpg?v=1573653821"},"name":{"S":"71 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
+            {"Item":{"id":{"S":"71"},"imageUrl":{"S":""},"name":{"S":"71 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
         },
         {"PutRequest": 
-            {"Item":{"id":{"S":"72"},"imageUrl":{"S":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/b3243c8a39e59e71c57432220d37704c_b8105f1c-0d6f-4c1e-8058-de84f6f932e5_480x.progressive.jpg?v=1573584664"},"name":{"S":"72 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
+            {"Item":{"id":{"S":"72"},"imageUrl":{"S":""},"name":{"S":"72 Movie"},"category":{"S":"Adventure|Children|Fantasy"}}}
         }
         
 
